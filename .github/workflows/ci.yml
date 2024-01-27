@@ -20,9 +20,6 @@ jobs:
       - name: Instalar Poetry
         run: pip install -r requirements-test.txt
 
-      - name: Entrando no ambiente virtual
-        run: source .venv/bin/activate
-
       - name: Rodar os testes
         run: task pytest tests/test_unit.py
 
