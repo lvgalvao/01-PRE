@@ -21,7 +21,7 @@ jobs:
         run: pip install -r requirements-test.txt
 
       - name: Rodar os testes
-        run: task pytest tests/test_unit.py
+        run: pytest tests/test_unit.py
 
       - name: Rodar os testes
         run: echo hello world!        
