@@ -6,8 +6,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Roda um comando!
-        run: echo $(pwd)
+      - name: Primeiro passo
+        run: echo hello world!
 
-      - name: Outro comando!
+      - name: Segundo Passo
         run: echo $(ls)
+
+      - name: Terceiro passo
+        run: echo $(pwd)
