@@ -9,7 +9,7 @@ cd Workshop-aberto-aovivo
 pyenv install 3.11.5
 pyenv local 3.11.5
 ```
-3. Instale as dependências do projeto:
+1. Instale as dependências do projeto:
 ```bash
 python -m venv .venv
 # O padrao é utilizar .venv
