@@ -6,6 +6,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Copia os arquivos do repositório
+        uses: actions/checkout@v4
+
       - name: Primeiro passo
         run: echo hello world!
 
